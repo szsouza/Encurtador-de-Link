@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css    "
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./encurtador.js"></script>
+    <title>Encurtador de links</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="field">
+          <label class="label">Encurte seu Link</label>
+          <div class="control">
+            <input
+              class="input"
+              id="longUrl"
+              name="longUrl"
+              type="text"
+              placeholder="Digite Aqui o Link a ser encurtado"
+            />
+          </div>
+        </div>
+        <button
+          class="button is-link"
+          onclick="myFunction()"
+          value="Gerar Link"
+        >
+          Gerar Link
+        </button>
+      </form>
+      <label class="label">Link Gerado</label >
+      <label class="label" id="h2resp"></label>
+    </div>
+  </body>
+</html>
